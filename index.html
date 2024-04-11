@@ -1,0 +1,98 @@
+<!--
+MIT License
+
+Copyright (c) 2024 Abendiix
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Fonts | Abendiix</title>
+        <meta name="description" content="Website for every font mabe by Abendiix.">
+        <link rel="icon" type="image/svg+xml" sizes="150x150" href="assets/img/logos/favicon.svg">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+
+    <body class="font-monospace" style="font-size: 24px;" id="page">
+
+        <!--Container for the header and modes-->
+        <div class="container">
+            
+            <!--Header-->
+            <div class="row font-monospace text-center d-flex d-xl-flex justify-content-center align-items-center">
+                <div style="margin-top: 15px;" class="col-md-6">
+
+                </div>
+            </div>
+            <!--Header-->
+
+            <!--Available modes' section-->
+            <div class="row font-monospace text-center d-flex d-xl-flex justify-content-center align-items-center">
+                <div class="col-md-6">
+                    <a aria-label="Change website colors to clear mode." role="button" onclick="changeToClearMode()" id="clearmode">
+                        <img alt="Icon showing a sun for changing the website to clear mode." src="assets/img/icons/sun.svg" style="width: min(25px, 15%);" id="clear" class="changeableColor">
+                    </a>
+
+                    <a aria-label="Change website colors to dark mode." role="button" onclick="changeToDarkMode()" id="darkmode">
+                        <img alt="Icon showing a moon for changing the website to dark mode." src="assets/img/icons/moon.svg" style="width: min(20px, 15%);" id="dark" class="changeableColor">
+                    </a>
+                </div>
+            </div>
+            <!--Available modes' section-->
+
+        </div>
+        <!--Container for the header and modes-->
+
+        <!--"Made by" section-->
+        <div class="row justify-content-center" style="margin: 0px;">
+            <div class="col-md-3 col-lg-2 d-flex justify-content-center align-items-center" style="min-width: 30%; padding-bottom: 20px">
+                <div>
+                    <h1 class="text-center" style="font-size: 24px">Made by</h1>
+                    <div class="d-flex justify-content-center" data-bss-hover-animate="tada">
+                        <a aria-label="Link to Abendiix's website" href="https://abendiix.com">
+                            <img class="changeableColor" src="assets/img/icons/logo_abendiix.svg" style="min-width: 60px; max-width: 10vh"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--"Made by" section-->
+
+        <!--Copyright notice-->
+        <div class="text-center" style="font-size: max(1vw, 2vh); margin-bottom: 404%;">
+            © 2019-2024 Abendiix - <a aria-label="Link to Creative Commons page about CC0." href="https://creativecommons.org/publicdomain/zero/1.0/" id="cc0" class="changeableColor">CC0 1.0</a>
+            <br>
+            © 2023 Fonticos, Inc (<a aria-label="Link to Font Awesome's page." href="https://fontawesome.com/" id="fontAwe" class="changeableColor">Font Awesome</a>) 
+        </div>
+        <!--Copyright notice-->
+
+        <!--Scripts-->
+        <script src="assets/js/bs-init.js"></script>
+        <script src="assets/js/clearAndDark.js"></script>
+        <!--Scripts-->
+
+    </body>
+</html>
