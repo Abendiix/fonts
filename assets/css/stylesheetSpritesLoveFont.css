@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'spriteslovefont';
+    src: url('/assets/fonts/SpritesLoveFont/spriteslovefont.woff2') format('woff2'),
+    url('/assets/fonts/SpritesLoveFont/spriteslovefont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
